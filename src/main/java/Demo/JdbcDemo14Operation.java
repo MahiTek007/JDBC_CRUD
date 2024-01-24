@@ -6,6 +6,7 @@ public class JdbcDemo14Operation {
     static Connection con=null;
     static {
         try {
+
             con= DriverManager.getConnection("jdbc:mysql://localhost:3306/1ejm9","root","sql123");
         } catch (SQLException e) {
             System.out.println(e);

@@ -15,7 +15,7 @@ public class JdbcDemo1 {
 
             //Step2:- Established Connection
 
-           con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/1ejm9" ,"root","sql123" );
+           con =  DriverManager.getConnection("3.631ejm9" ,"root","sql123" );
             System.out.println(" connection successfully");
             //step3: create a statement platform
 
