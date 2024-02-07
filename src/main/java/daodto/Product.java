@@ -1,5 +1,5 @@
 package daodto;
-//bean class OR DTO class...=> its carry private members and getters and setters
+//bean class OR DTO class...=> its containts private members and getters and setters
 public class Product {
     private int  productId;
     private String productName;
